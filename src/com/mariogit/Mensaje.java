@@ -11,7 +11,7 @@ public class Mensaje {
         return scanner.nextLine();
     }
 
-    public void Saludar(String nombre) {
-        System.out.printf("Hola %s, Bienvenido a Java\n", nombre);
+    public void Saludar(Persona persona) {
+        System.out.printf("Hola %s, Bienvenido a Java\n", persona);
     }
 }
