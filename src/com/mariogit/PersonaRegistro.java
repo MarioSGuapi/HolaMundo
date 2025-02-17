@@ -4,7 +4,8 @@ public record PersonaRegistro(String nombre, String apellidos) {
 
     @Override
     public String toString() {
-        System.out.println("Esta instrucion es in");
+        //Se elimina la linea de abajo. ,guapi
+        //System.out.println("Esta instrucion es in");
         return "%s %s".formatted(nombre, apellidos);
     }
 }
